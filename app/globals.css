@@ -73,8 +73,16 @@
   scroll-behavior: smooth;
 }
 
+body { 
+  background-color: rgba(245,245,245,255);
+}
+
 .bg-mz {
   background-color: rgba(255,182,122,255);
+}
+
+.text-mz-primary {
+  color: rgba(255,182,122,255);
 }
 
 .text-mz-secondary {

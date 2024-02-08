@@ -6,7 +6,7 @@ const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <footer className="border-t">
+    <footer className="border-t bg-white bg-opacity-50">
       <div className="wrapper flex items-center flex-col gap-4 p-5 text-center sm:flex-row">
         <Link href="https://lppsa.gov.my">
           <Image src="/assets/logo-lppsa.png" width={100} height={128} alt="LPPSA Logo" />
